@@ -5,9 +5,9 @@
 ----------------------------------------------------------------------------------------------------*/
 (function() {
 	
-	const 	$ 			= document; 
+	const 	$ 		= document; 
 	const 	_iW 		= window.innerWidth,
-			_iH 		= window.innerHeight;
+		_iH 		= window.innerHeight;
 
 	const 	divFrame 	= $.createElement('div');
 			divFrame.setAttribute('id', '_snowFrame');
