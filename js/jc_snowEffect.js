@@ -10,8 +10,8 @@
 		_iH 		= window.innerHeight;
 
 	const 	divFrame 	= $.createElement('div');
-			divFrame.setAttribute('id', '_snowFrame');
-			divFrame.style.cssText = "margin:0; padding:0; overflow:hidden; width: 100%; position: fixed; top:0; left:0; bottom:0; right:0;";
+		divFrame.setAttribute('id', '_snowFrame');
+		divFrame.style.cssText = "margin:0; padding:0; overflow:hidden; width: 100%; position: fixed; top:0; left:0; bottom:0; right:0;";
 	$.body.prepend(divFrame);
 
 	function Snow(conf) {
@@ -22,11 +22,11 @@
 
 		this.draw 	= function() {
 			const 	obj = $.createElement('div');
-					obj.style.cssText 	= "background: #fff; margin:0; padding:0; position: absolute; border: 1px #eee solid; border-radius: 50%; z-index:99999;";
-					obj.style.left 		= String(this.l) + "px";
-					obj.style.top 		= String(this.t) + "px";
-					obj.style.width 	= String(this.w) + "px";
-					obj.style.height 	= String(this.h) + "px"
+				obj.style.cssText 	= "background: #fff; margin:0; padding:0; position: absolute; border: 1px #eee solid; border-radius: 50%; z-index:99999;";
+				obj.style.left 		= String(this.l) + "px";
+				obj.style.top 		= String(this.t) + "px";
+				obj.style.width 	= String(this.w) + "px";
+				obj.style.height 	= String(this.h) + "px"
 
 			divFrame.appendChild(obj);
 		}
